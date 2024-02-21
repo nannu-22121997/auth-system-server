@@ -5,9 +5,14 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js",
+    "build": "echo \"No build specified\" && exit 1",
     "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
   },
+  "repository": {
+       "type": "git",
+       "url": "git+https://github.com/nannu-22121997/auth-system-server.git"
+   },
   "keywords": [
     "authentication",
     "jwt",
@@ -25,5 +30,9 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.1.1",
     "nodemon": "^3.0.3"
-  }
+  },
+  "bugs": {
+      "url": "https://github.com/nannu-22121997/auth-system-server/issues"
+  },
+2  "homepage": "https://github.com/nannu-22121997/auth-system-server#readme"
 }
