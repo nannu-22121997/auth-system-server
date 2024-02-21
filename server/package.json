@@ -1,20 +1,29 @@
 {
-  "name": "auth-system-server",
+  "name": "server",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is back-end for authentication system application",
+  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "build": "echo \"No build specified\" && exit 1",
-    "test": "echo \"No test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nannu-22121997/auth-system-server.git"
-  },
-  "author": "",
+  "keywords": [
+    "authentication",
+    "jwt",
+    "express",
+    "mongoose",
+    "nodemon"
+  ],
+  "author": "NaveenKumar",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nannu-22121997/auth-system-server/issues"
-  },
-  "homepage": "https://github.com/nannu-22121997/auth-system-server#readme"
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.1",
+    "nodemon": "^3.0.3"
+  }
 }
